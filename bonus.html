@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="work from home">
+		<meta name="description" content="Work from home with The Answer.">
+		<title>THE ANSWER</title>
+		
+		<!-- This is CSS. -->
+		<!-- CSS lets you edit how things look. -->
+		<style>
+			body {
+				font-family: Arial, sans serif;
+				text-align: center;
+			}
+			
+			/* Keep everything from getting too wide */
+			#wrapper {
+				width: 80%;
+				margin-left: 10%;
+				max-width: 1500px;
+			}
+			
+			/* Control the spacing between lines of text */
+			p, h2 { margin: 0.2em; }
+
+			
+			/* So it doesn't get too narrow on mobile */
+			@media only screen and (max-width: 37.5em) {
+				#wrapper { 	margin: 0;	width: 100%;	}
+				
+			}
+				
+			/* WORK FROM HOME */
+			
+			/* Bigbox defaults */
+			.bigbox {
+				padding: 0.5em;
+				font-size: 1.5em;
+				font-family: Times New Roman, serif;
+			}
+			.bigbox h2 {
+				font-family: Impact;
+				font-size: 4em;
+				font-weight: normal;
+			}
+			
+			/* Bigbox (black) */
+			.bigbox.black {
+				background-color: black;
+				color: yellow;
+			}
+			.bigbox.black h2 {
+				color: white;
+				text-shadow: 3px 3px red;
+			}
+			
+			/* Bigbox (red) */
+			.bigbox.red {
+				background-color: red;
+				color: yellow;
+			}
+			.bigbox.red h2 {
+				color: yellow;
+				text-shadow: 3px 3px black;
+			}
+			
+		</style>
+	</head>
+
+	<body>		
+		<div id="wrapper">
+			<header>
+			</header>
+			
+			<main>
+				<!-- WORK FROM HOME -->
+				
+				<div class="bigbox black">
+					<h2>WORK<br/>FROM HOME</h2>
+					<p>TheAnswer.com</p>
+				</div>
+				
+				<br/>
+				
+				<div class="bigbox red">
+					<h2>WORK<br/>FROM HOME</h2>
+				</div>
+				
+				<br/>
+				<br/><br/>
+				
+
+			
+			<footer>
+				Copyright &copy; 2021 The Answer<br/>
+			</footer>
+		<!-- End of wrapper -->
+		</div>
+	</body>
+</html>
